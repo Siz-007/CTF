@@ -26,7 +26,7 @@ app.use(cookieParser());
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect("mongodb://95.216.141.221:27017/userDB", {useNewUrlParser: true});
+mongoose.connect("", {useNewUrlParser: true});
 
 const userSchema = new mongoose.Schema( {
     email: String,
